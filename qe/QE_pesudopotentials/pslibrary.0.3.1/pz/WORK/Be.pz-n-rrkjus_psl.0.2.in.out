@@ -1,0 +1,171 @@
+[0] MPI startup(): I_MPI_SHM_LMT environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_SHM_HEAP
+	 I_MPI_SHM
+	 I_MPI_SHM_OPT
+	 I_MPI_SHM_THP
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+
+     Program LD1 v.7.3.1 starts on 19Sep2024 at 21:45:36 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     90068 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+     --------------------------- All-electron run ----------------------------
+
+     Be                                                                         
+     scalar relativistic calculation
+
+     atomic number is  4.00
+     dft =LDA   lsd =0 sic =0 latt =0  beta=0.20 tr2=1.0E-14
+     Exchange-correlation= LDA
+                           (   1   1   0   0   0   0   0)
+     mesh =1041 r(mesh) = 100.85720 a.u. xmin = -7.00 dx = 0.01250
+     1 Ry =  13.60569312 eV, c = 137.03599908
+
+     n l     nl                  e(Ry)          e(Ha)          e(eV)
+     1 0     1S 1( 2.00)        -7.7125        -3.8562      -104.9335
+     2 0     2S 1( 2.00)        -0.4121        -0.2060        -5.6064
+     2 1     2P 1( 0.00)        -0.1547        -0.0774        -2.1049
+
+     final scf error:  7.2E-15 reached in  16 iterations
+ 
+     Etot =     -28.897989 Ry,     -14.448994 Ha,    -393.177164 eV
+
+     Ekin =      28.634098 Ry,      14.317049 Ha,     389.586755 eV
+     Encl =     -66.736988 Ry,     -33.368494 Ha,    -908.002985 eV
+     Eh   =      14.233804 Ry,       7.116902 Ha,     193.660766 eV
+     Exc  =      -5.028902 Ry,      -2.514451 Ha,     -68.421700 eV
+
+
+     normalization and overlap integrals
+
+     s(1S/1S) =  1.000000  <r> =   0.4250  <r2> =    0.2465  r(max) =   0.2695
+     s(1S/2S) = -0.000043
+     s(2S/2S) =  1.000000  <r> =   2.6188  <r2> =    8.2506  r(max) =   2.0415
+     s(2P/2P) =  1.000000  <r> =   3.1841  <r2> =   12.9147  r(max) =   2.2846
+
+     ------------------------ End of All-electron run ------------------------
+
+
+     --------------------- Generating US pseudopotential ---------------------
+
+
+      Generating local pot.: lloc=2, matching radius rcloc =   1.4000
+
+      Computing core charge for nlcc: 
+
+       r > 1.30 : true rho core
+      Core charge pseudized with two Bessel functions
+      Integrated core pseudo-charge :   0.36
+      Wfc-us  2S rcutus= 1.991  Estimated cut-off energy=    11.14 Ry
+      Wfc-us  2S rcutus= 1.991  Estimated cut-off energy=    30.04 Ry
+      Wfc-us  2P rcutus= 1.991  Estimated cut-off energy=    18.68 Ry
+      Wfc-us  2P rcutus= 1.991  Estimated cut-off energy=    20.51 Ry
+
+      The bmat matrix
+     0.46243     0.39923     0.00000     0.00000
+     0.35785     0.67211     0.00000     0.00000
+     0.00000     0.00000    -0.01846    -0.39929
+     0.00000     0.00000     0.02793     0.05090
+
+      The bmat + epsilon qq matrix
+     0.48585     0.36026     0.00000     0.00000
+     0.36032     1.02908     0.00000     0.00000
+     0.00000     0.00000    -0.02069     0.01772
+     0.00000     0.00000     0.01769     0.76612
+
+      The qq matrix
+    -0.05683    -0.00599     0.00000     0.00000
+    -0.00599     0.05492     0.00000     0.00000
+     0.00000     0.00000     0.01442     0.06619
+     0.00000     0.00000     0.06619     0.11353
+
+     Q pseudized with Bessel functions
+     Expected ecutrho=     198.1671 due to l1=  1   l2=  1
+
+      The ddd matrix
+     0.27742     0.27824     0.00000     0.00000
+     0.27824     1.16732     0.00000     0.00000
+     0.00000     0.00000     0.04430     0.30373
+     0.00000     0.00000     0.30373     1.55822
+
+     ------------------- End of pseudopotential generation -------------------
+
+     --------------------------- All-electron run ----------------------------
+
+     Be                                                                         
+     scalar relativistic calculation
+
+     atomic number is  4.00
+     dft =LDA   lsd =0 sic =0 latt =0  beta=0.20 tr2=1.0E-14
+     Exchange-correlation= LDA
+                           (   1   1   0   0   0   0   0)
+     mesh =1041 r(mesh) = 100.85720 a.u. xmin = -7.00 dx = 0.01250
+     1 Ry =  13.60569312 eV, c = 137.03599908
+
+     n l     nl                  e(Ry)          e(Ha)          e(eV)
+     1 0     1S 1( 2.00)        -7.7125        -3.8562      -104.9335
+     2 0     2S 1( 2.00)        -0.4121        -0.2060        -5.6064
+     2 1     2P 1( 0.00)        -0.1547        -0.0774        -2.1049
+
+     final scf error:  7.2E-15 reached in  16 iterations
+ 
+     Etot =     -28.897989 Ry,     -14.448994 Ha,    -393.177164 eV
+
+     Ekin =      28.634098 Ry,      14.317049 Ha,     389.586755 eV
+     Encl =     -66.736988 Ry,     -33.368494 Ha,    -908.002985 eV
+     Eh   =      14.233804 Ry,       7.116902 Ha,     193.660766 eV
+     Exc  =      -5.028902 Ry,      -2.514451 Ha,     -68.421700 eV
+
+
+     normalization and overlap integrals
+
+     s(1S/1S) =  1.000000  <r> =   0.4250  <r2> =    0.2465  r(max) =   0.2695
+     s(1S/2S) = -0.000043
+     s(2S/2S) =  1.000000  <r> =   2.6188  <r2> =    8.2506  r(max) =   2.0415
+     s(2P/2P) =  1.000000  <r> =   3.1841  <r2> =   12.9147  r(max) =   2.2846
+
+     ------------------------ End of All-electron run ------------------------
+
+
+     ---------------------- Testing the pseudopotential ----------------------
+
+     Be                                                                         
+     scalar relativistic calculation
+
+     atomic number is  4.00   valence charge is  2.00
+     dft =LDA   lsd =0 sic =0 latt =0  beta=0.20 tr2=1.0E-14
+     mesh =1041 r(mesh) = 100.85720 xmin = -7.00 dx = 0.01250
+
+     n l     nl             e AE (Ry)        e PS (Ry)    De AE-PS (Ry) 
+     1 0     2S   1( 2.00)       -0.41206       -0.41207        0.00000
+     2 1     2P   1( 0.00)       -0.15470       -0.15470        0.00000
+
+     eps = 1.7E-16  iter =  3
+ 
+     Etot =     -28.897989 Ry,     -14.448994 Ha,    -393.177164 eV
+     Etotps =    -2.258202 Ry,      -1.129101 Ha,     -30.724407 eV
+
+     Ekin =       0.632352 Ry,       0.316176 Ha,       8.603585 eV
+     Encl =      -3.782623 Ry,      -1.891312 Ha,     -51.465211 eV
+     Ehrt =       1.385704 Ry,       0.692852 Ha,      18.853464 eV
+     Ecxc =      -1.048473 Ry,      -0.524236 Ha,     -14.265195 eV
+     (Ecc =      -0.253752 Ry,      -0.126876 Ha,      -3.452477 eV)
+     Epseu=       0.554838 Ry,       0.277419 Ha,       7.548950 eV
+
+     ---------------------- End of pseudopotential test ----------------------
+

@@ -1,0 +1,269 @@
+[0] MPI startup(): I_MPI_SHM_LMT environment variable is not supported.
+[0] MPI startup(): Similar variables:
+	 I_MPI_SHM_HEAP
+	 I_MPI_SHM
+	 I_MPI_SHM_OPT
+	 I_MPI_SHM_THP
+[0] MPI startup(): To check the list of supported variables, use the impi_info utility or refer to https://software.intel.com/en-us/mpi-library/documentation/get-started.
+
+     Program LD1 v.7.3.1 starts on 19Sep2024 at 21:48:32 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     89553 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+     --------------------------- All-electron run ----------------------------
+
+     Al                                                                         
+     dirac relativistic calculation
+
+     atomic number is 13.00
+     dft =PBE   lsd =0 sic =0 latt =0  beta=0.20 tr2=1.0E-14
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     mesh =1135 r(mesh) = 100.48924 a.u. xmin = -7.00 dx = 0.01250
+     1 Ry =  13.60569312 eV, c = 137.03599908
+
+     n l j   nl                  e(Ry)          e(Ha)          e(eV)
+     Spin orbit split results
+     1 0 0.5 1S 1( 2.00)      -111.0590       -55.5295     -1511.0346
+     2 0 0.5 2S 1( 2.00)        -7.9486        -3.9743      -108.1459
+     2 1 0.5 2P 1( 2.00)        -5.1389        -2.5694       -69.9177
+     2 1 1.5 2P 1( 4.00)        -5.1064        -2.5532       -69.4764
+     3 0 0.5 3S 1( 2.00)        -0.5694        -0.2847        -7.7466
+     3 1 0.5 3P 1( 1.00)        -0.1998        -0.0999        -2.7183
+     3 1 1.5 3P 1( 0.00)        -0.1986        -0.0993        -2.7020
+     Averaged results
+     1 0     1S 1( 2.00)      -111.0590       -55.5295     -1511.0346
+     2 0     2S 1( 2.00)        -7.9486        -3.9743      -108.1459
+     2 1     2P 1( 6.00)        -5.1172        -2.5586       -69.6235
+     3 0     3S 1( 2.00)        -0.5694        -0.2847        -7.7466
+     3 1     3P 1( 1.00)        -0.1990        -0.0995        -2.7074
+
+     final scf error:  3.6E-15 reached in  27 iterations
+ 
+     Etot =    -485.371927 Ry,    -242.685963 Ha,   -6603.821489 eV
+
+     Ekin =     486.431703 Ry,     243.215851 Ha,    6618.240471 eV
+     Encl =   -1160.943769 Ry,    -580.471884 Ha,  -15795.444652 eV
+     Eh   =     226.008875 Ry,     113.004438 Ha,    3075.007402 eV
+     Exc  =     -36.868736 Ry,     -18.434368 Ha,    -501.624710 eV
+
+
+     normalization and overlap integrals
+
+     s(1S/1S) =  1.000000  <r> =   0.1202  <r2> =    0.0195  r(max) =   0.0779
+     s(1S/2S) =  0.000000
+     s(1S/3S) = -0.000000
+     s(2S/2S) =  1.000000  <r> =   0.6260  <r2> =    0.4700  r(max) =   0.4954
+     s(2S/3S) =  0.000000
+     s(2P/2P) =  1.000000  <r> =   0.6020  <r2> =    0.4610  r(max) =   0.4264
+     s(2P/3P) =  0.000000
+     s(2P/2P) =  1.000000  <r> =   0.6042  <r2> =    0.4643  r(max) =   0.4317
+     s(2P/3P) =  0.000000
+     s(3S/3S) =  1.000000  <r> =   2.5432  <r2> =    7.5564  r(max) =   2.0856
+     s(3P/3P) =  1.000000  <r> =   3.4429  <r2> =   14.3143  r(max) =   2.6447
+     s(3P/3P) =  1.000000  <r> =   3.4525  <r2> =   14.3943  r(max) =   2.6447
+
+     ------------------------ End of All-electron run ------------------------
+
+
+     --------------------- Generating PAW atomic setup --------------------
+
+
+      Generating local pot.: lloc=2, j= 1.50, matching radius rcloc =   1.9000
+
+      Generating local pot.: lloc=2, j= 2.50, matching radius rcloc =   1.9000
+
+      Computing core charge for nlcc: 
+
+       r > 1.31 : true rho core
+       r < 1.31 : rho core = a sin(br)/r    a=   1.82  b=   2.07
+
+      Integrated core pseudo-charge :   1.46
+
+     Fully relativistic calculation: |psi|^2
+
+     Wfc 3S LC norm =  0.99997107 SC norm =  0.00002600 missing  0.00000293
+     Speed at rcutus      0.539 a.u.,  v/c =  0.003935,  (v/c)^2 =  0.00001548
+
+     Wfc 3P LC norm =  0.99998299 SC norm =  0.00001678 missing  0.00000022
+     Speed at rcutus      0.552 a.u.,  v/c =  0.004030,  (v/c)^2 =  0.00001624
+
+     Wfc 3P LC norm =  0.99998307 SC norm =  0.00001220 missing  0.00000473
+     Speed at rcutus      0.551 a.u.,  v/c =  0.004021,  (v/c)^2 =  0.00001616
+      Wfc-us  3S rcutus= 2.193  Estimated cut-off energy=     9.37 Ry
+      Wfc-us  3S rcutus= 2.193  Estimated cut-off energy=    25.07 Ry
+      Wfc-us  3P rcutus= 2.086  Estimated cut-off energy=    16.61 Ry
+      Wfc-us  3P rcutus= 2.086  Estimated cut-off energy=    16.60 Ry
+      Wfc-us  3P rcutus= 2.086  Estimated cut-off energy=    36.54 Ry
+      Wfc-us  3P rcutus= 2.086  Estimated cut-off energy=    36.50 Ry
+
+      The bmat matrix
+     0.97461     0.56139     0.00000     0.00000     0.00000     0.00000
+     0.54060     0.56140     0.00000     0.00000     0.00000     0.00000
+     0.00000     0.00000     0.16794     0.00000     0.41492     0.00000
+     0.00000     0.00000     0.00000     0.16661     0.00000     0.41224
+     0.00000     0.00000     0.32442     0.00000     1.17569     0.00000
+     0.00000     0.00000     0.00000     0.32339     0.00000     1.17556
+
+      The bmat + epsilon qq matrix
+     1.03309     0.54241     0.00000     0.00000     0.00000     0.00000
+     0.54234     1.00700     0.00000     0.00000     0.00000     0.00000
+     0.00000     0.00000     0.16929     0.00000     0.32725     0.00000
+     0.00000     0.00000     0.00000     0.16790     0.00000     0.32618
+     0.00000     0.00000     0.32725     0.00000     1.02015     0.00000
+     0.00000     0.00000     0.00000     0.32615     0.00000     1.02319
+
+      The qq matrix
+    -0.10271    -0.00306     0.00000     0.00000     0.00000     0.00000
+    -0.00306     0.07187     0.00000     0.00000     0.00000     0.00000
+     0.00000     0.00000    -0.00676     0.00000    -0.01414     0.00000
+     0.00000     0.00000     0.00000    -0.00651     0.00000    -0.01388
+     0.00000     0.00000    -0.01414     0.00000    -0.02509     0.00000
+     0.00000     0.00000     0.00000    -0.01388     0.00000    -0.02458
+
+
+    multipoles (all-electron charge) - (pseudo charge)
+        ns l1:ns1 l2    l=0     l=1     l=2     l=3     l=4     l=5  
+         1  0:  1  0 -0.1027
+         2  0:  1  0 -0.0031
+         2  0:  2  0  0.0719
+         3  1:  1  0  0.0000  0.0506
+         3  1:  2  0  0.0000 -0.0091
+         3  1:  3  1 -0.0068  0.0000 -0.0279
+         4  1:  1  0  0.0000  0.0503
+         4  1:  2  0  0.0000 -0.0089
+         4  1:  3  1 -0.0067  0.0000 -0.0278
+         4  1:  4  1 -0.0065  0.0000 -0.0276
+         5  1:  1  0  0.0000  0.0848
+         5  1:  2  0  0.0000 -0.0225
+         5  1:  3  1 -0.0141  0.0000 -0.0320
+         5  1:  4  1 -0.0141  0.0000 -0.0319
+         5  1:  5  1 -0.0251  0.0000 -0.0389
+         6  1:  1  0  0.0000  0.0846
+         6  1:  2  0  0.0000 -0.0227
+         6  1:  3  1 -0.0140  0.0000 -0.0319
+         6  1:  4  1 -0.0139  0.0000 -0.0319
+         6  1:  5  1 -0.0249  0.0000 -0.0388
+         6  1:  6  1 -0.0246  0.0000 -0.0387
+     Required augmentation: PSQ   radius:    1.800000
+
+     Q pseudized with Bessel functions
+     Expected ecutrho=      84.1291 due to l1=  1   l2=  1
+
+     Estimated PAW energy =  -39.233001 Ryd
+
+     The PAW screened D coefficients
+     1.03309     0.54234     0.00000     0.00000     0.00000     0.00000
+     0.54234     1.00704     0.00000     0.00000     0.00000     0.00000
+     0.00000     0.00000     0.16929     0.00000     0.32725     0.00000
+     0.00000     0.00000     0.00000     0.16790     0.00000     0.32615
+     0.00000     0.00000     0.32725     0.00000     1.02017     0.00000
+     0.00000     0.00000     0.00000     0.32615     0.00000     1.02324
+
+     The PAW descreened D coefficients (US)
+     0.56302     0.44089     0.00000     0.00000     0.00000     0.00000
+     0.44089     1.67147     0.00000     0.00000     0.00000     0.00000
+     0.00000     0.00000     0.23637     0.00000     0.27891     0.00000
+     0.00000     0.00000     0.00000     0.23657     0.00000     0.28008
+     0.00000     0.00000     0.27891     0.00000     0.97308     0.00000
+     0.00000     0.00000     0.00000     0.28008     0.00000     0.98055
+
+     ------------------- End of pseudopotential generation -------------------
+
+     --------------------------- All-electron run ----------------------------
+
+     Al                                                                         
+     dirac relativistic calculation
+
+     atomic number is 13.00
+     dft = SLA  PW   PBX  PBC   lsd =0 sic =0 latt =0  beta=0.20 tr2=1.0E-14
+     Exchange-correlation=  SLA  PW   PBX  PBC
+                           (   1   4   3   4   0   0   0)
+     mesh =1135 r(mesh) = 100.48924 a.u. xmin = -7.00 dx = 0.01250
+     1 Ry =  13.60569312 eV, c = 137.03599908
+
+     n l j   nl                  e(Ry)          e(Ha)          e(eV)
+     Spin orbit split results
+     1 0 0.5 1S 1( 2.00)      -111.0590       -55.5295     -1511.0346
+     2 0 0.5 2S 1( 2.00)        -7.9486        -3.9743      -108.1459
+     2 1 0.5 2P 1( 2.00)        -5.1389        -2.5694       -69.9177
+     2 1 1.5 2P 1( 4.00)        -5.1064        -2.5532       -69.4764
+     3 0 0.5 3S 1( 2.00)        -0.5694        -0.2847        -7.7466
+     3 1 0.5 3P 1( 1.00)        -0.1998        -0.0999        -2.7183
+     3 1 1.5 3P 1( 0.00)        -0.1986        -0.0993        -2.7020
+     Averaged results
+     1 0     1S 1( 2.00)      -111.0590       -55.5295     -1511.0346
+     2 0     2S 1( 2.00)        -7.9486        -3.9743      -108.1459
+     2 1     2P 1( 6.00)        -5.1172        -2.5586       -69.6235
+     3 0     3S 1( 2.00)        -0.5694        -0.2847        -7.7466
+     3 1     3P 1( 1.00)        -0.1990        -0.0995        -2.7074
+
+     final scf error:  3.6E-15 reached in  27 iterations
+ 
+     Etot =    -485.371927 Ry,    -242.685963 Ha,   -6603.821489 eV
+
+     Ekin =     486.431703 Ry,     243.215851 Ha,    6618.240471 eV
+     Encl =   -1160.943769 Ry,    -580.471884 Ha,  -15795.444652 eV
+     Eh   =     226.008875 Ry,     113.004438 Ha,    3075.007402 eV
+     Exc  =     -36.868736 Ry,     -18.434368 Ha,    -501.624710 eV
+
+
+     normalization and overlap integrals
+
+     s(1S/1S) =  1.000000  <r> =   0.1202  <r2> =    0.0195  r(max) =   0.0779
+     s(1S/2S) =  0.000000
+     s(1S/3S) = -0.000000
+     s(2S/2S) =  1.000000  <r> =   0.6260  <r2> =    0.4700  r(max) =   0.4954
+     s(2S/3S) =  0.000000
+     s(2P/2P) =  1.000000  <r> =   0.6020  <r2> =    0.4610  r(max) =   0.4264
+     s(2P/3P) =  0.000000
+     s(2P/2P) =  1.000000  <r> =   0.6042  <r2> =    0.4643  r(max) =   0.4317
+     s(2P/3P) =  0.000000
+     s(3S/3S) =  1.000000  <r> =   2.5432  <r2> =    7.5564  r(max) =   2.0856
+     s(3P/3P) =  1.000000  <r> =   3.4429  <r2> =   14.3143  r(max) =   2.6447
+     s(3P/3P) =  1.000000  <r> =   3.4525  <r2> =   14.3943  r(max) =   2.6447
+
+     ------------------------ End of All-electron run ------------------------
+
+
+     ---------------------- Testing the pseudopotential ----------------------
+
+     Al                                                                         
+     dirac relativistic calculation
+
+     atomic number is 13.00   valence charge is  3.00
+     dft = SLA  PW   PBX  PBC   lsd =0 sic =0 latt =0  beta=0.20 tr2=1.0E-14
+     mesh =1135 r(mesh) = 100.48924 xmin = -7.00 dx = 0.01250
+
+     n l  j  nl             e AE (Ry)       e PS (Ry)    De AE-PS (Ry) 
+     1 0 0.5 3S   1( 2.00)       -0.56936       -0.56937        0.00000
+     2 1 0.5 3P   1( 1.00)       -0.19979       -0.19979       -0.00000
+     2 1 1.5 3P   1( 0.00)       -0.19859       -0.19859        0.00000
+
+     eps = 1.2E-16  iter =  3
+ 
+     Etot =    -485.371927 Ry,    -242.685963 Ha,   -6603.821489 eV
+     Etotps =   -39.233002 Ry,     -19.616501 Ha,    -533.792180 eV
+
+     Ekin =       5.641219 Ry,       2.820610 Ha,      76.752696 eV
+     Encl =     -10.896205 Ry,      -5.448103 Ha,    -148.250422 eV
+     Ehrt =       2.890721 Ry,       1.445361 Ha,      39.330263 eV
+     Ecxc =     -36.868737 Ry,     -18.434368 Ha,    -501.624718 eV
+     (Ecc =      -1.274518 Ry,      -0.637259 Ha,     -17.340706 eV)
+
+     ---------------------- End of pseudopotential test ----------------------
+
