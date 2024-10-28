@@ -79,6 +79,6 @@ E_fermi : 费米能级
     
     ax.tick_params( pad = 10)
     plt.show()
-    fig.savefig("plot_band2.png",dpi = 300)
+    fig.savefig("plot_band.png",dpi = 300)
 
 plot_band(spin = False, k_num = 121, k_d = 40, band_num = 52, E_fermi = -3.2477)
